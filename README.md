@@ -1,3 +1,5 @@
+React Frontend link: https://github.com/LeoAfonso1993/gratitude-journal-react-front
+
 # Phase 3 Project Guidelines
 
 ## Learning Goals
