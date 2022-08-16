@@ -2,14 +2,14 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
   # Add your routes here
-  get "/home" do
+  get "/" do
     { message: "Good luck with your project!" }.to_json
   end
 
   post "/home" do
     card = Blessing.create(
       answer: params[:answer],
-      question_id: params[:question_id]
+      category_id: params[:category_id]
     )
     card.to_json
   end
